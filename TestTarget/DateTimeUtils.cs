@@ -2,9 +2,9 @@
 
 namespace TestTarget
 {
-    public class Class1
+    public static class DateTimeUtils
     {
-        public DateTime? StrToDate(string date, string time)
+        public static DateTime? StrToDate(string date, string time)
         {
             var result = DateTime.Parse(date);
 
